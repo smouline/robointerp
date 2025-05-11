@@ -7,7 +7,9 @@ This repository contains two Streamlit applications for comparing outputs from v
 ## 🖼️ 1. Code File Description 
 
 paligemma_finetuning_single.ipynb - This file contains code for finetuning PaliGemma. You have options to choose between different PaliGemma models, and customize the number of images that will be collated together. These should line up with the image grids and models that you will be using in make_droid_datasets and droid_SAE_runs.
+
 make_droid_datasets.ipynb - This file contains code to form the different image datasets from DROID (options include collated vs single images). This notebook should be run before the next one for finetuning the SAE, droid_SAE_runs.ipynb.
+
 droid_SAE_runs.ipynb - file for finetuning the SAE on PaliGemma, with options to choose the PaliGemma VLM model, load in the DROID dataset, and train the SAE (with potentially customizable parameters)
 
 
