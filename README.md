@@ -39,7 +39,9 @@ Vote log includes both captions and source labels
 ### 🛠️ Configuration
 Update the script paths:
 BASE_FOLDER = "/path/to/base/captions_and_images"
+
 FINETUNED_FOLDER = "/path/to/finetuned/captions_and_images"
+
 VOTE_LOG = "/path/to/vote_log.csv"
 
 streamlit run finetuning_comparison_streamlit.py
