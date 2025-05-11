@@ -24,10 +24,10 @@ VOTE_LOG = "/path/to/vote_log.csv"
 
 streamlit run sae_comparison_streamlit.py
 
-2. Caption Comparison Tool (finetuning_comparison_streamlit.py)
+## 2. Caption Comparison Tool (finetuning_comparison_streamlit.py)
 This tool presents a single image along with two captions (from base and fine-tuned models) and asks the user to vote on which caption better describes the image. Captions are matched to the same image ID and randomized left/right.
 
-🔧 Key Features
+### 🔧 Key Features
 Side-by-side blind caption comparison
 
 User voting with session state
@@ -36,9 +36,10 @@ Support for both .jpg and .txt file pairs
 
 Vote log includes both captions and source labels
 
-🛠️ Configuration
+###🛠️ Configuration
 Update the script paths:
 BASE_FOLDER = "/path/to/base/captions_and_images"
 FINETUNED_FOLDER = "/path/to/finetuned/captions_and_images"
 VOTE_LOG = "/path/to/vote_log.csv"
+
 streamlit run finetuning_comparison_streamlit.py
