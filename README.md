@@ -36,7 +36,7 @@ Support for both .jpg and .txt file pairs
 
 Vote log includes both captions and source labels
 
-###🛠️ Configuration
+### 🛠️ Configuration
 Update the script paths:
 BASE_FOLDER = "/path/to/base/captions_and_images"
 FINETUNED_FOLDER = "/path/to/finetuned/captions_and_images"
