@@ -4,7 +4,15 @@ This repository contains two Streamlit applications for comparing outputs from v
 
 ---
 
-## 🖼️ 1. Image Comparison Tool (`sae_comparison_streamlit.py`)
+## 🖼️ 1. Code File Description 
+
+paligemma_finetuning_single.ipynb - This file contains code for finetuning PaliGemma. You have options to choose between different PaliGemma models, and customize the number of images that will be collated together. These should line up with the image grids and models that you will be using in make_droid_datasets and droid_SAE_runs.
+make_droid_datasets.ipynb - This file contains code to form the different image datasets from DROID (options include collated vs single images). This notebook should be run before the next one for finetuning the SAE, droid_SAE_runs.ipynb.
+droid_SAE_runs.ipynb - file for finetuning the SAE on PaliGemma, with options to choose the PaliGemma VLM model, load in the DROID dataset, and train the SAE (with potentially customizable parameters)
+
+
+
+## 🖼️ 2. Image Comparison Tool (`sae_comparison_streamlit.py`)
 
 This tool presents two randomly selected images — one from a base model and one from a fine-tuned model — and asks users to vote for the better one. It randomizes the display order and logs user preferences.
 
@@ -26,7 +34,7 @@ VOTE_LOG = "/path/to/vote_log.csv"
 
 streamlit run sae_comparison_streamlit.py
 
-## 2. Caption Comparison Tool (finetuning_comparison_streamlit.py)
+## 3. Caption Comparison Tool (finetuning_comparison_streamlit.py)
 This tool presents a single image along with two captions (from base and fine-tuned models) and asks the user to vote on which caption better describes the image. Captions are matched to the same image ID and randomized left/right.
 
 ### 🔧 Key Features
