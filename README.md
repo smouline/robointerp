@@ -10,8 +10,9 @@ paligemma_finetuning_single.ipynb - This file contains code for finetuning PaliG
 
 make_droid_datasets.ipynb - This file contains code to form the different image datasets from DROID (options include collated vs single images). This notebook should be run before the next one for finetuning the SAE, droid_SAE_runs.ipynb.
 
-droid_SAE_runs.ipynb - file for finetuning the SAE on PaliGemma, with options to choose the PaliGemma VLM model, load in the DROID dataset, and train the SAE (with potentially customizable parameters)
+droid_SAE_runs.ipynb - file for training the SAE on PaliGemma, with options to choose the PaliGemma VLM model, load in the DROID dataset, and train the SAE (with potentially customizable parameters). These features can be visualized.
 
+imageNet_SAE.ipynb - A file for training an SAE on the ImageNet dataset, and visualizing features.
 
 
 ## 🖼️ 2. Image Comparison Tool (`sae_comparison_streamlit.py`)
