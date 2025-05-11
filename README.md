@@ -4,7 +4,7 @@ This repository contains two Streamlit applications for comparing outputs from v
 
 ---
 
-## 🖼️ 1. Code File Description 
+## 1. Code File Description 
 
 paligemma_finetuning_single.ipynb - This file contains code for finetuning PaliGemma. You have options to choose between different PaliGemma models, and customize the number of images that will be collated together. These should line up with the image grids and models that you will be using in make_droid_datasets and droid_SAE_runs.
 
