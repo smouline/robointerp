@@ -19,7 +19,9 @@ This tool presents two randomly selected images — one from a base model and on
 Update the paths in the script as needed:
 
 BASE_FOLDER = "/path/to/base/images"
+
 FINETUNED_FOLDER = "/path/to/finetuned/images"
+
 VOTE_LOG = "/path/to/vote_log.csv"
 
 streamlit run sae_comparison_streamlit.py
@@ -38,6 +40,7 @@ Vote log includes both captions and source labels
 
 ### 🛠️ Configuration
 Update the script paths:
+
 BASE_FOLDER = "/path/to/base/captions_and_images"
 
 FINETUNED_FOLDER = "/path/to/finetuned/captions_and_images"
